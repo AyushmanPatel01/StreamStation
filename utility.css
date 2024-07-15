@@ -1,0 +1,98 @@
+.border{
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.sizeWeightCol{
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sizeWeightCol-2-h{
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sizeWeightCol-2-p{
+    color: #a7a7a7;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.float-right{
+    float: right;
+}
+
+
+/* scroll bar code by chatgpt */
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the entire scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #666; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* Color of the scrollbar handle on hover */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333; /* Color of the scrollbar track */
+}
+
+/* Track when scrollbar is inactive */
+::-webkit-scrollbar-track-piece:end {
+    background: #222; /* Color of the scrollbar track when scrollbar is inactive */
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+    background: #222; /* Color of the scrollbar corner */
+}
+
