@@ -116,7 +116,7 @@ async function displayAlbums() {
 async function main() {
 
     //get all the songs
-    await getSongs("songs/Neffex")
+    await getSongs("songs/Adrenaline")
     playMusic(songs[0], true)
 
     //display all the albums on the page
